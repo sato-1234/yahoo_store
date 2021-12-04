@@ -22,13 +22,13 @@ php get_url.php
 * csv folder： ./storage/csv/store/store_list_2XXX-XX-XX_XXXXXX.csv
 * argument： [url_list_2XXX_XX_XX_XX_XX_XX.csv]　[1列目から開始番号選択]　[1列目のから終了番号選択]
 ```bash
-php get_store.php url_list_2XXX-XX-XX_XXXXXX.csv 1 100 
+php get_store.php url_list_2XXX-XX-XX_XXXXXX.csv 1 100
 ```
 
 ## Environment creation（cd yahoo_store）
 1. An environment of "PHP 7.4 or higher" and "Composer" is required in advance.
 ```bash
-ｐｈｐ -v
+php -v
 composer -v
 ```
 2. Specify the version in "composer.json"
